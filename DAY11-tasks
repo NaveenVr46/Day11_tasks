@@ -1,0 +1,348 @@
+1.Fix the bugs in below snippet
+
+FIXED CODE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>guvi</div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+</body>
+</html>
+
+
+OUTPUT:
+guvi
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Guvi Geek Network
+
+2.Fixing bugs
+
+Fixed code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div>guvi</div> 
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+</body>
+</html>
+
+Output:
+guvi
+Lorem ipsum dolor sit amet consectetur adipisicing elit.
+Guvi Geek Network
+
+3.CREATING A CONTACT US FORM
+
+CODE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+
+</head>
+<body>
+    <h2>Contact us</h2>
+    <form action="https://www.google.com/search?q" method="get">
+    <label for="first_name">First Name:</label><br>
+        <input type="text" value="" name="first_name"> 
+     <br/>
+     Second Name:<br>
+     <input type="text" value="" >
+     <br/>
+     Email:<br>
+   <input type="email" value="" >
+     <br/>
+     Phone Number:<br>
+     <input type="number" value="" >
+     <br/>
+     Leave a Message:<br><textarea rows="4" cols="50">
+    </textarea><br>
+        <input type="submit" value="Submit" name="submit">
+    </form>
+</body>
+</html>
+
+4.Use certain HTML elements to display the following in a HTML page.
+
+CODE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Nested Lists</h1>
+    <ul>
+        <li>Programming Language
+            <ul>
+                <li>JavaScript
+                    <ol type="a">
+                        <li>Angular</li>
+                        <li>React</li>
+                        <li>Vue.js</li>
+                    </ol>
+                </li>
+                <li>Python
+                    <ol type="a">
+                        <li>Django Framework</li>
+                        <li>Flask Framework</li>
+                    </ol>
+                </li>
+                <li>Java
+                    <ol type="a">
+                        <li>Spring</li>
+                        <li>Maven</li>
+                        <li>Hibernate</li>
+                    </ol>
+                </li>
+            </ul>
+        </li>
+        <li>Database
+            <ul>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>Cansandra</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>
+
+5.Create an element that helps you to open the https://google.com in separate new tab.
+Code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div><a href="https://google.com/" target="_blank">Click here to go to Google Page</a><div>
+</body>
+</html>
+
+6.In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+
+CODE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+   
+</head>
+<body>
+    <h2>Contact us</h2>
+    <form action="https://www.google.com/search?q" method="get">
+    <label for="first_name">First Name:</label><br>
+        <input type="text" value="" name="first_name"> 
+     <br/>
+     Second Name:<br>
+     <input type="text" value="" >
+     <br/>
+     Email:<br>
+   <input type="email" value="" >
+     <br/>
+     Phone Number:<br>
+     <input type="number" value="" >
+     <br/>
+     Leave a Message:<br><textarea rows="4" cols="50">
+    </textarea><br>
+    <p>Employee type</p>
+    <div>
+        <input type="radio" id="rad" name="salary" value="sal">
+        <label for="rad">Salaried</label><br>
+        <input type="radio" id="own" name="salary" value="owb">
+        <label for="own">Own Business</label>
+    </div><br>
+        <input type="submit" value="Submit" name="submit">
+    </form>
+</body>
+</html>
+
+8.Use the table tag to design given image 
+
+CODE:
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+        table {
+  border-collapse: collapse;
+}
+       p{
+         text-align: justify;
+       }
+    </style>
+  </head>
+  <body>
+    <p>Health Chart</p>
+    <table border="solid" >
+      <tr>
+        <td>State of Health</td>
+        <td>
+          <table border="solid">
+            <tr>
+              <td>Fasting value</td>
+            </tr>
+            <tr>
+              <td>Minimum</td>
+              <td>Maximum</td>
+            </tr>
+          </table>
+        </td>
+
+        <td>
+          <table border="solid">
+            <tr>
+              <td>After Eating</td>
+            </tr>
+            <tr>
+              <td>2 hours after Eating</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>Healthy</td>
+        <td>
+          <table border="solid">
+            <tr>
+              <td>70</td>
+              <td>100</td>
+            </tr>
+          </table>
+        </td>
+        <td>Less than 140</td>
+      </tr>
+      <tr>
+        <td>Pre-diabetes</td>
+        <td>
+          <table border="solid">
+            <tr>
+              <td>140</td>
+              <td>126</td>
+            </tr>
+          </table>
+        </td>
+        <td>140 to 200</td>
+      </tr>
+      <tr>
+        <td>Diabetes</td>
+        <td>
+          <table border="solid">
+            <tr>
+              <td>More than 126</td>
+              <td>N/A</td>
+            </tr>
+          </table>
+        </td>
+
+        <td>More than 200</td>
+      </tr>
+    </table>
+  </body>
+</html>
+
+9.
+CODE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+</head>
+<body>
+<h1>Form elements</h1>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" value="John"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <div class="form">Phone Number:<input type="number" value="" ></div>
+        <input type="submit" value="Submit">
+        <button class="button">
+            <a href="https://github.com/">Click Here</a>
+            </button>
+    </body>
+      </form>
+</body>
+</html>
+
+10.In your HTML page add the below line and Highlight it without using any CSS.
+
+CODE:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div><mark>"HTML & CSS is awesome"</mark><div>
+</body>
+</html>
+11.All types of input elements.
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
